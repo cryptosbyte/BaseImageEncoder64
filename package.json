@@ -1,0 +1,23 @@
+{
+  "name": "image-buffer-to-base64",
+  "version": "1.0.0",
+  "description": "Return Image Buffers (from locally or the web) to Base64",
+  "main": "index.js",
+  "scripts": {
+    "build": "sh start.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^2.5.10",
+    "btoa": "^1.2.1",
+    "fs": "0.0.1-security",
+    "node": "^16.1.0",
+    "node-fetch": "^2.6.1",
+    "pkg": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.1"
+  }
+}
